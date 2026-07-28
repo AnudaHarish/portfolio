@@ -54,26 +54,28 @@ export function StarBackground () {
     setMeteors(newMeteors);
   }
 
-  return <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
-    {stars.map((star) => (
-      <div key={star.id} className="star animate-pulse-subtle" style={{
-        width: star.size + "px",
-        height: star.size + "px",
-        left: star.x + "%",
-        top: star.y + "%",
-        opacity: star.opacity,
-        animationDuration: star.animationDuration + "s",
-      }}/>
-    ))}
-    {meteors.map((meteor) => (
-      <div key={meteor.id} className="meteor animate-meteor" style={{
-        width: meteor.size * 50 + "px",
-        height: meteor.size * 2 + "px",
-        left: meteor.x + "%",
-        top: meteor.y + "%",
-        animationDelay: meteor.delay + "s",
-        animationDuration: meteor.animationDuration + "s",
-      }}/>
-    ))}
-  </div>
+  return (
+    <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
+      {stars.map((star) => (
+        <div key={star.id} className="star animate-pulse-subtle" style={{
+          width: star.size + "px",
+          height: star.size + "px",
+          left: star.x + "%",
+          top: star.y + "%",
+          opacity: star.opacity,
+          animationDuration: star.animationDuration + "s",
+        }}/>
+      ))}
+      {meteors.map((meteor) => (
+        <div key={meteor.id} className="meteor animate-meteor" style={{
+          width: meteor.size * 50 + "px",
+          height: meteor.size * 2 + "px",
+          left: meteor.x + "%",
+          top: meteor.y + "%",
+          animationDelay: meteor.delay + "s",
+          animationDuration: meteor.animationDuration + "s",
+        }}/>
+      ))}
+    </div>
+  );
 }
