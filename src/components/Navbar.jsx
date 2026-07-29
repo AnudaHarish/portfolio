@@ -13,7 +13,7 @@ const navItems = [
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpened, setIsMenuOpened] = useState(true);
+  const [isMenuOpened, setIsMenuOpened] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,7 +36,7 @@ export function Navbar() {
             <span className="text-glow text-foreground">
               Anuda
             </span>{" "}
-            Harishchandra
+            Portfolio
           </span>
         </a>
 
@@ -55,7 +55,7 @@ export function Navbar() {
           isMenuOpened ?
             "opacity-100 pointer-events-auto" :
             "opacity-0 pointer-events-none"
-        )}>
+          )}>
           <div className="flex flex-col space-y-8">
           {navItems.map((item, key) => (
               <a className="text-foreground/80 hover:text-primary transition-colors duration-300" key={key} href={item.href} onClick={() => setIsMenuOpened(false)}>{item.name}</a>
