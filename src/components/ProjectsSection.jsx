@@ -5,7 +5,7 @@ const projects = [
     id:1,
     name: "CompanyLogo",
     description: "Designed and developed a demo corporate website for a fictional business, featuring company information, service pages, and a contact section.",
-    image: "../../public/projects/companylogo.png",
+    image: "/projects/companylogo.png",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     demoUrl: "https://taupe-banoffee-280422.netlify.app/",
     github: "https://github.com/AnudaHarish/companyLogo-"
@@ -14,7 +14,7 @@ const projects = [
     id:2,
     name: "Leave Manager",
     description: "Developed an Employee Leave Management System with role-based access for administrators and employees, enabling leave requests, approvals, leave tracking, and user management.",
-    image: "../../public/projects/leaveManager.png",
+    image: "/projects/leaveManager.png",
     tags: ["Angular", "TypeScript", "Java", "SpringBoot", "MongoDB", "Bootstrap"],
     demoUrl: "#",
     github: "https://github.com/AnudaHarish/LeaveManager"
@@ -23,7 +23,7 @@ const projects = [
     id:3,
     name: "Online Shop",
     description: "Developed a responsive e-commerce frontend using React, featuring product listings, product details, shopping cart, and a modern user interface.",
-    image: "../../public/projects/onlineShop.png",
+    image: "/projects/onlineShop.png",
     tags: ["React", "Bootstrap", "JavaScript"],
     demoUrl: "http://online-shop-env.eba-phecnby3.ap-south-1.elasticbeanstalk.com/",
     github: "https://github.com/AnudaHarish/react-basics"
@@ -32,7 +32,7 @@ const projects = [
     id:4,
     name: "Ed Sheeran",
     description: "Developed a responsive promotional website for Ed Sheeran using HTML, CSS, and JavaScript, showcasing albums, merchandise, tour information, and interactive UI components.",
-    image: "../../public/projects/edstore.png",
+    image: "/projects/edstore.png",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     demoUrl: "#",
     github: "https://github.com/AnudaHarish/web_cw"
@@ -41,7 +41,7 @@ const projects = [
     id:5,
     name: "Flix app",
     description: "Developed a movie information web application that displays movie details, ratings, genres, and release information through a clean and responsive user interface.",
-    image: "../../public/projects/flixapp.png",
+    image: "/projects/flixapp.png",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     demoUrl: "https://subtle-sprite-d8691f.netlify.app/",
     github: "https://github.com/AnudaHarish/flixx-app"
@@ -50,7 +50,7 @@ const projects = [
     id:6,
     name: "TravelTales",
     description: "Developed a travel blog web application that allows users to explore travel stories and publish their own blog posts through an intuitive and responsive interface.",
-    image: "../../public/projects/blogpost.png",
+    image: "/projects/blogpost.png",
     tags: ["Angular", "Express", "SQLite", "Nebular"],
     demoUrl: "#",
     github: "https://github.com/AnudaHarish/serverside-express"
@@ -59,7 +59,7 @@ const projects = [
     id:7,
     name: "Travel Agency",
     description: "Developed a responsive travel agency website showcasing tour packages, destinations, services, and booking information with an intuitive user interface.",
-    image: "../../public/projects/travelAgency.png",
+    image: "/projects/travelAgency.png",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     demoUrl: "https://delicate-platypus-b53653.netlify.app/",
     github: "https://github.com/AnudaHarish/travel_agency"

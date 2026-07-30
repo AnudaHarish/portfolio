@@ -65,7 +65,7 @@ export default function ContactSection(){
                 >
                   <img
                     className="bg-violet-400"
-                    src="../../public/linkedin.png"
+                    src="/linkedin.png"
                     alt="linkedin"
                     width="40"
                   />
@@ -77,7 +77,7 @@ export default function ContactSection(){
                 >
                   <img
                     className="bg-violet-400"
-                    src="../../public/facebook.png"
+                    src="/facebook.png"
                     alt="facebook"
                     width="40"
                   />
@@ -89,7 +89,7 @@ export default function ContactSection(){
                 >
                   <img
                     className="bg-violet-400"
-                    src="../../public/instagram.png"
+                    src="/instagram.png"
                     alt="facebook"
                     width="40"
                   />
