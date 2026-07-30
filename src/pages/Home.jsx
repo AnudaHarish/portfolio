@@ -2,6 +2,7 @@ import AboutSection from "../components/AboutSection";
 import { DarkModeBtn } from "../components/DarkmodeBtn";
 import Hero from "../components/Hero";
 import { Navbar } from "../components/Navbar";
+import SkillsSection from "../components/SkillsSections";
 import { StarBackground } from "../components/StarBackground";
 
 export default function HomePage(){
@@ -17,6 +18,7 @@ export default function HomePage(){
       <main>
         <Hero />
         <AboutSection />
+        <SkillsSection />
       </main>
 
       {/* footer */}
