@@ -1,6 +1,6 @@
 import AboutSection from "../components/AboutSection";
 import ContactSection from "../components/ContactSection";
-import { DarkModeBtn } from "../components/DarkmodeBtn";
+import DarkModeBtn from "../components/DarkModeBtn";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import { Navbar } from "../components/Navbar";
