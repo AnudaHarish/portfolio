@@ -13,7 +13,7 @@ export default function DarkModeBtn(){
       setIsDarMode(false);
       document.documentElement.classList.remove("dark");
     }
-  },[])
+  },[]);
 
   function onChnage() {
     if(isDarkMode){
