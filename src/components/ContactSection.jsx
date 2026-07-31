@@ -106,8 +106,7 @@ export default function ContactSection(){
                 type="text" 
                 id="name" 
                 name="name" 
-                required 
-                autoFocus 
+                required  
                 autoComplete="on"
                 className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                 placeholder="Joe Wilson"
