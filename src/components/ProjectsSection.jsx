@@ -33,7 +33,7 @@ const projects = [
     name: "Ed Sheeran",
     description: "Developed a responsive promotional website for Ed Sheeran using HTML, CSS, and JavaScript, showcasing albums, merchandise, tour information, and interactive UI components.",
     image: "/projects/edClone.png",
-    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    tags: ["HTML", "CSS", "JavaScript", "React"],
     demoUrl: "https://ed-sheeran-clone.vercel.app/",
     github: "https://github.com/AnudaHarish/ed_sheeran_clone"
   },
